@@ -1,5 +1,5 @@
 # Advanced lane finding
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3bc1cc0064b247d3b24ee58d716d5f34)](https://www.codacy.com/manual/frgfm/sdcnd-p2-advanced-lane-finding?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=frgfm/sdcnd-p2-advanced-lane-finding&amp;utm_campaign=Badge_Grade) [![CircleCI](https://circleci.com/gh/frgfm/sdcnd-p2-advanced-lane-finding.svg?style=shield)](https://circleci.com/gh/frgfm/sdcnd-p2-advanced-lane-finding)
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/3bc1cc0064b247d3b24ee58d716d5f34)](https://www.codacy.com/manual/frgfm/sdcnd-p2-advanced-lane-finding?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=frgfm/sdcnd-p2-advanced-lane-finding&amp;utm_campaign=Badge_Grade) [![CircleCI](https://circleci.com/gh/frgfm/sdcnd-p2-advanced-lane-finding.svg?style=shield)](https://circleci.com/gh/frgfm/sdcnd-p2-advanced-lane-finding) [![codecov](https://codecov.io/gh/frgfm/sdcnd-p2-advanced-lane-finding/branch/master/graph/badge.svg)](https://codecov.io/gh/frgfm/sdcnd-p2-advanced-lane-finding)
 
 This repository is an implementation of non-learning pipeline for the advanced lane finding project of Udacity Self-Driving Car Nanodegree (cf. [repo](<https://github.com/udacity/CarND-Advanced-Lane-Lines>)).
 
@@ -35,6 +35,10 @@ git clone https://github.com/frgfm/sdcnd-p2-advanced-lane-finding.git
 cd sdcnd-p2-advanced-lane-finding
 pip install -r requirements.txt
 ```
+
+If you wish to reproduce results shown further below, you can download [calibration](https://github.com/frgfm/sdcnd-p2-advanced-lane-finding/releases/download/v0.1.0/camera_cal.zip) and [testing samples](https://github.com/frgfm/sdcnd-p2-advanced-lane-finding/releases/download/v0.1.0/test_samples.zip) and extract each archive in the repository main folder.
+
+Alternatively, provide your own calibration and testing samples.
 
 
 

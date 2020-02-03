@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+camera_cal/
+test_images/
+test_videos/
